@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "VBCCIUY2UQh4Wz2rASq8CXk1fWuXLTjtkCDWvhQi/ZY=",
+  "Source": "SecretsManagementWebAPI",
+  "BasePath": "_content/SecretsManagementWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
