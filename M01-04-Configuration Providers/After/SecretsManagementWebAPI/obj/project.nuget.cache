@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a2h6uayQt3w=",
+  "dgSpecHash": "uUTfm28kkMM=",
   "success": true,
-  "projectFilePath": "C:\\Demos\\SecretsManagementWebAPI\\SecretsManagementWebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Rag\\Documents\\GitHub\\PS-SecretManagementforCSharp-2025\\M01-04-Configuration Providers\\After\\SecretsManagementWebAPI\\SecretsManagementWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rag\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
     "C:\\Users\\Rag\\.nuget\\packages\\azure.extensions.aspnetcore.configuration.secrets\\1.4.0\\azure.extensions.aspnetcore.configuration.secrets.1.4.0.nupkg.sha512",

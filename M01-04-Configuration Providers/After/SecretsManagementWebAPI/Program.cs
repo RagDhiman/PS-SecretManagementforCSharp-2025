@@ -1,5 +1,3 @@
-using SecretsManagementConsoleApp.IEncryption;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,21 +5,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
-
-if (builder.Environment.IsProduction())
-{
-    builder.Services.AddTransient<IEncryption, NOEncryption>();
-    builder.Configuration.AddAzureKeyVault(
-        new Uri("https://<your-keyvault-name>.vault.azure.net/"),
-        new DefaultAzureCredential());
-}
-
-if (builder.Environment.IsDevelopment())
-{
-    builder.Services.AddTransient<IEncryption, WindowsDPAPIEncryption>();
-    builder.Configuration.AddXmlFile("test.xml");
-}
-
 
 var app = builder.Build();
 
